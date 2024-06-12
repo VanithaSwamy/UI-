@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:80%;
+    min-height: 400px; 
+    margin:auto;
+    border: 2px solid #000;
+}
+.box1{
+    width:100%;
+    height:600px;
+    background-image: url(../images/bg4.jpg);
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.main-header{
+    width:90%;
+    height:60px;
+    margin:auto;
+    /* border: 2px solid #ea6a6a; */
+    position:relative;
+}
+.main-header .logo{
+    width:43%;
+    height: 100%;
+    /* background-color: lavender; */
+    position: absolute;
+    left:0;
+    
+}
+.logo h2{
+    padding: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4em;
+    color:white;
+}
+.main-header .menu{
+    width:55%;
+    height: 100%;
+    /* background-color: azure; */
+    position:absolute;
+    right:0;    
+}
+.menu ul{
+    list-style: none;  
+    width:100%;  
+}
+.menu ul li{
+    display:inline-block;
+    padding-top: 15px;
+}
+.menu ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+}
+.menu ul li a:hover{
+    background-color: lavender;
+    color:black;
+}
+.title{
+    width:100%;
+    min-height: 100px;
+    text-align: center;
+}
+.title .txt1{ 
+    margin: 7% 35%;
+}
+.txt1 h1{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+.txt1 h4{
+    margin-top: 5%;
+    color:rgb(214, 211, 211);
+    font-size: 1em;
+}
+.txt1 button{
+    width:30%;
+    height: 35px;
+    text-transform: uppercase;
+    margin-top: 8%;
+    background-color:rgb(213, 214, 196);
+    border:none;
+    color:white;
+    font-size: 0.8em;
+}
+.box2{
+    width:100%;
+    min-height:200px;
+}
+.box2 .con{
+    text-align: center;
+    margin-top: 2%;
+    border: 1px solid;
+}
+
+.con h3{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color:#3b3838;
+}
+.con h4{
+    color:rgb(189, 183, 183);
+    font-size:1em;    
+}
+.box2 .con1{
+    margin:4%;
+    text-align: justify;
+    text-align-last: center;
+}
+
+

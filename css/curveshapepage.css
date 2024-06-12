@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:100px;
+    background-image: linear-gradient(to left,#bdc3c7,#2c3e50),url(../images/book.png);
+    background-blend-mode:lighten;
+    background-repeat: no-repeat;
+}
+section .contents{
+    max-width: 700px;
+}
+.contents h1{
+    font-size: 3.5em;
+    color:white;
+}
+.contents p{
+    font-size: 1.3em;
+    color:white;
+}
+section img{
+    position: relative;
+    max-width: 500px;
+    margin-top: 130px;
+    /* z-index: 1000; */
+}
+.custom-shape-divider-bottom-1716355120 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1716355120 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1716355120 .shape-fill {
+    fill: #FFFFFF;
+}
+.wave{
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.menu{
+    position: absolute;
+    top:0;
+    right: 80px;
+    margin-top:10px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    padding:10px;
+    position:relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5em;
+    padding: 10px;
+}
+.menu ul li a:hover{
+    background-color: #5A6876;
+    color:white;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.menu ul li ul{
+    background-color:#B7BDC3;
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+}
+ul li:hover > ul, ul li ul:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    background-color: #B7BDC3;
+}
+ul li ul li{
+    clear: both;
+    width: 100%;
+}
